@@ -7,7 +7,7 @@
   tasks:
     - name: update the vm 
       apt:
-        name: aptitutde
+        name: aptitude
         state: latest
         update_cache: true
     - name: install the required package 
